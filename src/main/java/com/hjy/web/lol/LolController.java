@@ -125,6 +125,7 @@ public class LolController {
 																		//즐겨찾기페이지
 	@GetMapping("/lol/bookMark")
 	public String bookMark(@ModelAttribute BookMarkVO bvo, HttpSession session) {
+			
 		return "/lol/bookMark";
 	}
 	@PostMapping("/lol/bookMark2")
